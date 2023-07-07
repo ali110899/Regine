@@ -3,10 +3,19 @@ package it.polito.tdp;
 import java.util.List;
 
 public class TestRegine {
-	public static void main(String args[]) {
-		RisolviRegine2 r = new RisolviRegine2() ;
+
+	public static void main(String[] args) {
 		
-		List<Integer>soluzione = r.trovaRegine(6);
-		System.out.println(soluzione);
+		Regine r = new Regine();
+		r.trovaRegine(4);
+		
+	/*
+		RisolviRegine r = new RisolviRegine();
+		//r.trovaRegine(4);
+		List<List<Integer>> soluzioni = r.trovaRegine(4);
+		System.out.println(soluzioni);
+		*/
+		
 	}
+
 }
